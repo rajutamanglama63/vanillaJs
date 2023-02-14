@@ -43,12 +43,29 @@
 // const parent = document.querySelector(".parent")
 // parent.appendChild(greeting)
 
-const about = document.createElement("h1")
-about.innerHTML = "about"
-about.classList.add("about")
-const contact = document.querySelector("#contact")
-contact.insertAdjacentElement("beforebegin", about)
-const aboutClass = document.querySelector(".about")
-aboutClass.style.color = "navy"
+// const about = document.createElement("h1")
+// about.innerHTML = "about"
+// about.classList.add("about")
+// const contact = document.querySelector("#contact")
+// contact.insertAdjacentElement("beforebegin", about)
+// const aboutClass = document.querySelector(".about")
+// aboutClass.style.color = "navy"
+
+const form = document.querySelector("form")
+const usernameInput = document.querySelector("#username")
+const pswd = document.querySelector("#password")
+const submitBtn = document.querySelector("#btn")
+
+form.addEventListener("submit", function (event) {
+    event.preventDefault()
+    const username = usernameInput.value
+    const password = pswd.value
+
+    if(username === "Raju" && password === "Lama") {
+        alert("Login successfull!")
+    } else {
+        alert("Invalid credentials!")
+    }
+} )
 
 
