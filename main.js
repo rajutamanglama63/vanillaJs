@@ -29,6 +29,7 @@
 // console.log(nextSibling)
 
 const welcome = document.querySelector("#welcome")
-welcome.innerHTML = "Hello world"
-welcome.style.color = "red"
+// welcome.innerHTML = "Hello world"
+// welcome.style.color = "red"
+// welcome.style.fontSize = "100px"
 
