@@ -30,3 +30,5 @@
 
 const welcome = document.querySelector("#welcome")
 welcome.innerHTML = "Hello world"
+welcome.style.color = "red"
+
