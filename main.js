@@ -38,9 +38,17 @@
 // parent.classList.add("title")
 // parent.classList.remove("parent")
 
-const greeting = document.createElement("h2")
-greeting.innerHTML = "Hello there!"
-const parent = document.querySelector(".parent")
-parent.appendChild(greeting)
+// const greeting = document.createElement("h2")
+// greeting.innerHTML = "Hello there!"
+// const parent = document.querySelector(".parent")
+// parent.appendChild(greeting)
+
+const about = document.createElement("h1")
+about.innerHTML = "about"
+about.classList.add("about")
+const contact = document.querySelector("#contact")
+contact.insertAdjacentElement("beforebegin", about)
+const aboutClass = document.querySelector(".about")
+aboutClass.style.color = "navy"
 
 
