@@ -33,9 +33,14 @@
 // welcome.style.color = "red"
 // welcome.style.fontSize = "100px"
 
-const parent = document.querySelector(".parent")
+// const parent = document.querySelector(".parent")
 // console.dir(parent.classList)
-parent.classList.add("title")
-parent.classList.remove("parent")
+// parent.classList.add("title")
+// parent.classList.remove("parent")
+
+const greeting = document.createElement("h2")
+greeting.innerHTML = "Hello there!"
+const parent = document.querySelector(".parent")
+parent.appendChild(greeting)
 
 
