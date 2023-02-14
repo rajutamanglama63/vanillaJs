@@ -28,8 +28,12 @@
 // const nextSibling = home.nextElementSibling
 // console.log(nextSibling)
 
-const welcome = document.querySelector("#welcome")
+// const welcome = document.querySelector("#welcome")
 // welcome.innerHTML = "Hello world"
 // welcome.style.color = "red"
 // welcome.style.fontSize = "100px"
+
+const parent = document.querySelector(".parent")
+// console.dir(parent.classList)
+parent.classList.add("title")
 
