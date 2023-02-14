@@ -36,4 +36,6 @@
 const parent = document.querySelector(".parent")
 // console.dir(parent.classList)
 parent.classList.add("title")
+parent.classList.remove("parent")
+
 
